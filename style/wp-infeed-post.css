@@ -1,0 +1,62 @@
+@media screen and (min-width: 768px){
+    .wp-infeed-post-loopbox:hover{
+    background-color: rgba(0,0,0,0.1);
+    }
+  }
+.wp-infeed-post-loopbox:active{
+   background-color: rgba(0,0,0,0.1);
+}
+
+.wp-infeed-post-img{
+  object-fit:cover; 
+  float:left;
+  margin-right:10px;
+}
+
+.wp-infeed-post-cat-all{
+	display:inline-block;
+  font-size:10px;
+  padding:1px 3px;
+  vertical-align: middle;
+  margin-left:4px;
+  border-radius:5px;
+}
+
+.wp-infeed-post-title{
+  font-weight:bold;
+  line-height:1.3;
+}
+.wp-infeed-post-title_hidden{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.wp-infeed-post-date{
+	font-size:smaller; 
+  display:inline-block; 
+  margin-left:3px;
+}
+
+.wp-infeed-post-underline{
+	margin:5px auto;
+}
+
+.wp-infeed-post-transparent{
+  margin:2px auto;
+}
+
+
+
+/*newマークデザイン*/
+.wp-infeed-post-new{
+  background-color:#FE9A2E;
+  color:#fff;
+  display:inline-block;
+  border-radius:3px;
+  font-size:10px;
+  padding:1px 3px;
+  vertical-align: middle;
+  line-height: 1.5em;
+  margin:0 3px;
+}
